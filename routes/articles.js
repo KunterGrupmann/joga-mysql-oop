@@ -1,4 +1,7 @@
-const articleControllerClass = require('../controllers/article');
+const express = require('express');
+const router = express.Router();
+
+const articleControllerClass = require('../controllers/articles');
 
 const articleController = new articleControllerClass()
 
